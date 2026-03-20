@@ -6,25 +6,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+
+    <!-- Font Pairs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <label for="numInput">Initial Price: </label>
-    <input type="number" id="numInput">
 
-    <p>Tip Percentage: </p>
-    
-    <label for="tip1"> <input value=".1" type="radio" id="tip1" name="tip"> 10%</label>
-    <br>
-    
-    <label for="tip2"> <input value=".15" type="radio" id="tip2" name="tip"> 15%</label>
-    <br>
-    
-    <label for="tip3"> <input value=".2" type="radio" id="tip3" name="tip"> 20%</label>
-    <br>
-    
-    <label for="tip4"> <input value=".25" type="radio" id="tip4" name="tip"> 25%</label>
-
-    <p>Final Price: </p>
+    <h1>Tip Calculator</h1>
+    <div class="Calculator_card">
+        <br>
+        <!-- Getting the users input for the initial price -->
+        <label for="numInput">Initial Price: </label>
+        <input type="number" id="numInput">
+        
+        <p>Tip Percentage: </p>
+        
+        <!-- Tip radio buttons with the specific values matching the label text -->
+        <label for="tip1"> <input value=".1" type="radio" id="tip1" name="tip"> 10%</label>
+        <br>
+        
+        <label for="tip2"> <input value=".15" type="radio" id="tip2" name="tip"> 15%</label>
+        <br>
+        
+        <label for="tip3"> <input value=".2" type="radio" id="tip3" name="tip"> 20%</label>
+        <br>
+        
+        <label for="tip4"> <input value=".25" type="radio" id="tip4" name="tip"> 25%</label>
+        
+        <!-- Outputting the final tip value -->
+        <p id="selected_tip">Selected Tip Amount: 0.00</p>
+        
+        <!-- Outputting the final price value -->
+        <p id="final_price">Final Price: 0.00</p>
+        <br>
+    </div>
     
 </body>
 </html>

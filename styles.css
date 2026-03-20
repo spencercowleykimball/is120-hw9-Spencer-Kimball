@@ -1,0 +1,48 @@
+/* Font Pairs CSS */
+.bricolage-grotesque {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.biorhyme {
+  font-family: "BioRhyme", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+
+/* Main Element CSS */
+h1 {
+    background-color: #32746D;
+    border-radius: 12px 12px 0px 0px;
+    margin-bottom: 0px;
+    width: 440px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+body {
+    background-color: #c7c0b9;
+    padding: 20px;
+}
+
+/* Class CSS */
+.Calculator_card {
+    font-family: "BioRhyme", serif;
+    background-color: #9EC5AB;
+    margin-top: 0px;
+    width: 420px;
+    border-radius: 0px 0px 12px 12px;
+    border: 2px solid black;
+    border-top: 0px;
+    padding: 20px;
+}
+
